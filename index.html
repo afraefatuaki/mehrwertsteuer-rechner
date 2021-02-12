@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <section>
+        <p>Was soll berechnet werden?</p>
+
+        <div>
+
+            <input type="radio" id="nettoZuBrutto" name="drone" value="huey" checked>
+            <label for="">Mehrwetsteuer aufschlagen (Netto zu brutto)</label><br>
+            <input type="radio" id="bruttoZuNetto" name="drone" value="huey" checked>
+            <label for="">Mehrwetsteuer abziehen (Netto zu brutto)</label>
+
+
+        </div>
+
+        <div>
+
+            <label for="dewey">Mehrwertsteuersatz</label><br>
+            <input type="radio" id="nineteen" name="this" value="dewey" checked>
+            <label for="dewey">19%</label><br>
+            <input type="radio" id="seven" name="this" value="dewey" checked>
+            <label for="dewey">7%</label><br>
+            <label for="dewey">Nettobetrag(Preis ohne Mehrwetsteuer)in Euro</label><br>
+            <input type="number" id="price" value="">
+            <input type="submit" value="Berechnen" onclick="texasCalculation()">
+
+        </div>
+
+        <div>
+            <h2>Ergebnis</h2>
+            <p>Mehrwertsteuerbetrag</p>
+            <p id="texas">-</p>
+            <p>Brutobetrag</p>
+            <p id="total">-</p>
+        </div>
+
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
