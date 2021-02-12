@@ -11,13 +11,13 @@
 
 <body>
     <section>
-        <p>Was soll berechnet werden?</p>
+        <h2>Was soll berechnet werden?</h2>
 
         <div>
 
-            <input type="radio" id="nettoZuBrutto" name="drone" value="huey" checked>
+            <input type="radio" id="nettoZuBrutto" name="drone" value="huey" checked onchange="changeLabel()">
             <label for="">Mehrwetsteuer aufschlagen (Netto zu brutto)</label><br>
-            <input type="radio" id="bruttoZuNetto" name="drone" value="huey" checked>
+            <input type="radio" id="bruttoZuNetto" name="drone" value="huey" checked onchange="changeLabel()">
             <label for="">Mehrwetsteuer abziehen (Netto zu brutto)</label>
 
 
@@ -30,17 +30,17 @@
             <label for="dewey">19%</label><br>
             <input type="radio" id="seven" name="this" value="dewey" checked>
             <label for="dewey">7%</label><br>
-            <label for="dewey">Nettobetrag(Preis ohne Mehrwetsteuer)in Euro</label><br>
+            <label for="dewey" id="brutoLabel">Nettobetrag</label><br>
             <input type="number" id="price" value="">
             <input type="submit" value="Berechnen" onclick="texasCalculation()">
 
         </div>
 
         <div>
-            <h2>Ergebnis</h2>
+
             <p>Mehrwertsteuerbetrag</p>
             <p id="texas">-</p>
-            <p>Brutobetrag</p>
+            <p id="netoLabel">Brutobetrag</p>
             <p id="total">-</p>
         </div>
 
