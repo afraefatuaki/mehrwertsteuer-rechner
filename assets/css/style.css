@@ -7,7 +7,11 @@ body{
     
 }
 h2{
-    margin-top:  20%;
+    margin-top:  15%;
+    font-size: 19px;
+}
+div{
+    font-size: 15px;
 }
 section{
     
@@ -26,12 +30,12 @@ input[type="submit" i]{
     background-color: #3C1874;
     border-radius: 5px;
     font-weight: 700;
-    padding: 10px 35px;
+    padding: 7px 30px;
     margin-left: 5%;
     color: rgb(241, 235, 235); 
 } 
 input[type="number" i] {
-    padding: 10px 10px;
+    padding: 7px 7px;
     border-radius: 5px;
 }
 
@@ -68,9 +72,10 @@ h3{
 }
 
 .line{
-    border-bottom: 3px solid #932432;
+    border-bottom: 2px solid #932432;
     margin-top: 5%;
-    margin-right: 15%; 
+    margin-right: 10%;
+ 
 }
 label{
     line-height: 25px;
