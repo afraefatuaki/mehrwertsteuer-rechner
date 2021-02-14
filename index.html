@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -25,9 +26,9 @@
 
         <div>
 
-            <label for="dewey">Mehrwertsteuersatz</label><br>
+            <br><label for="dewey" class="Mehrwertsteuersatz">Mehrwertsteuersatz</label><br>
             <input type="radio" id="nineteen" name="this" value="dewey" checked>
-            <label for="dewey">19%</label><br>
+            <label for="dewey">19%</label>
             <input type="radio" id="seven" name="this" value="dewey" checked>
             <label for="dewey">7%</label><br>
             <label for="dewey" id="brutoLabel">Nettobetrag</label><br>
@@ -35,13 +36,18 @@
             <input type="submit" value="Berechnen" onclick="texasCalculation()">
 
         </div>
+        <div class="line"></div>
+        <h3>Ergebnis</h3>
+        <div class="calculation">
+            <article>
 
-        <div>
-
-            <p>Mehrwertsteuerbetrag</p>
-            <p id="texas">-</p>
-            <p id="netoLabel">Brutobetrag</p>
-            <p id="total">-</p>
+                <p>Mehrwertsteuerbetrag</p>
+                <p id="texas">-</p>
+            </article>
+            <article>
+                <p id="netoLabel">Brutobetrag</p>
+                <p id="total">-</p>
+            </article>
         </div>
 
     </section>

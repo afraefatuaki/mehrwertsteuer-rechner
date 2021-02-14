@@ -11,17 +11,17 @@ let Label2 = document.getElementById('netoLabel')
 
 function texasCalculation() {
     if (nettoZuBrutto.checked && nineteenPercent.checked) {
-        texas.innerHTML = (price.value * 0.19).toFixed(2)
-        total.innerHTML = (price.value * 1.19).toFixed(2)
+        texas.innerHTML = (price.value * 0.19).toFixed(2) + "€"
+        total.innerHTML = (price.value * 1.19).toFixed(2) + "€"
     } else if (nettoZuBrutto.checked && sevenPercent.checked) {
-        texas.innerHTML = (price.value * 0.07).toFixed(2)
-        total.innerHTML = (price.value * 1.07).toFixed(2)
+        texas.innerHTML = (price.value * 0.07).toFixed(2) + "€"
+        total.innerHTML = (price.value * 1.07).toFixed(2) + "€"
     } else if (bruttoZuNetto.checked && nineteenPercent.checked) {
-        texas.innerHTML = (price.value / 1.19 * 0.19).toFixed(2)
-        total.innerHTML = (price.value / 1.19).toFixed(2)
+        texas.innerHTML = (price.value / 1.19 * 0.19).toFixed(2) + "€"
+        total.innerHTML = (price.value / 1.19).toFixed(2) + "€"
     } else if (bruttoZuNetto.checked && sevenPercent.checked) {
-        texas.innerHTML = (price.value / 1.07 * 0.07).toFixed(2)
-        total.innerHTML = (price.value / 1.07).toFixed(2)
+        texas.innerHTML = (price.value / 1.07 * 0.07).toFixed(2) + "€"
+        total.innerHTML = (price.value / 1.07).toFixed(2) + "€"
     }
 }
 

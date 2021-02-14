@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* font-family: 'Lato', sans-serif; */
+body{
+    background-color: #DFE9F5;
+    color: #283747;
+    font-family: 'Lato', sans-serif;
+    
+}
+h2{
+    margin-top:  20%;
+}
+section{
+    
+    border: 10px solid transparent;
+    max-width:25%;
+    margin: 7rem auto;
+    height: 70vh;
+    border-radius:5px;
+    padding-left: 4%;
+    background-color: #F3F3F3;
+    -webkit-box-shadow: 3px 6px 28px 15px rgba(166,191,221,0.63); 
+    box-shadow: 3px 6px 28px 15px rgba(166,191,221,0.63);
+}
+
+input[type="submit" i]{
+    background-color: #3C1874;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 35px;
+    margin-left: 5%;
+    color: rgb(241, 235, 235); 
+} 
+input[type="number" i] {
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.calculation{
+    display: flex;
+    justify-content: space-around;
+}
+
+article{
+    width: 50%;
+}
+
+div:nth-of-type(2)+ div:nth-of-type(3) {
+    padding-top: 5%;
+}
+input{
+    margin-top: 20px;
+}
+h3{
+    color:#3C1874;
+}
+
+#seven{
+    margin-left: 5%;
+}
+#nineteen{
+    margin-bottom: 10%;
+}
+#brutoLabel, .Mehrwertsteuersatz , article p:first-child{
+    font-weight: 700;
+}
+.Mehrwertsteuersatz{
+    margin-top: 100px;
+}
+
+.line{
+    border-bottom: 3px solid #932432;
+    margin-top: 5%;
+    margin-right: 15%; 
+}
+label{
+    line-height: 25px;
+}
+
+
+
+
+
+
